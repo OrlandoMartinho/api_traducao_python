@@ -4,11 +4,11 @@ from flask_cors import CORS
 import traducao
 import json
 
-servidor = Flask(__name__)
+app = Flask(__name__)
 
-CORS(servidor)
+CORS(app)
 
-@servidor.route('/traduzir', methods=['POST'])
+@app.route('/traduzir', methods=['POST'])
 
 def traduzir_mensagem():
     
@@ -22,5 +22,5 @@ def traduzir_mensagem():
   
 
 if __name__ == '__main__':
-    servidor.run(debug=True)
+    app.run(debug=True)
     
