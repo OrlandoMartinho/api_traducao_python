@@ -25,6 +25,18 @@ Este é um web server criado com Python, projetado para receber dados em formato
 }
 ```
 
+## Lista de Códigos de Idiomas
+- **en**: Inglês
+- **es**: Espanhol
+- **fr**: Francês
+- **de**: Alemão
+- **it**: Italiano
+- **pt**: Português
+- **ru**: Russo
+- **zh**: Chinês
+- **ja**: Japonês
+- **ar**: Árabe
+
 ## Instalação e Configuração
 
 1. Certifique-se de que o Python (versão 3.7 ou superior) está instalado.
@@ -68,3 +80,4 @@ curl -X POST "http://127.0.0.1:8000/traduzir" \
 fastapi
 uvicorn
 googletrans==4.0.0-rc1
+```
